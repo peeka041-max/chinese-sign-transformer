@@ -1,0 +1,1716 @@
+{
+  "proposal_status": "provisional",
+  "selection_scope": "数据覆盖与日常基础语义审计，不使用旧测试准确率筛词",
+  "source": {
+    "gloss_csv": "local_data/NationalCSL-DP/gloss.csv",
+    "front_coverage": "Participant_01至Participant_10 ZIP中央目录成员名",
+    "image_decoding_performed": false,
+    "feature_extraction_performed": false,
+    "checkpoint_loaded": false
+  },
+  "candidate_summary": [
+    {
+      "candidate_word": "我",
+      "semantic_group": "人称代词",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "我",
+          "gloss_id": "1928",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 122,
+          "in_old_20_model": true,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "你",
+      "semantic_group": "人称代词",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "你",
+          "gloss_id": "1925",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 129,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "他",
+      "semantic_group": "人称代词",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "他",
+          "gloss_id": "6450",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 124,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "我们",
+      "semantic_group": "人称代词",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "我们",
+          "gloss_id": "0488",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 155,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "好",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "好",
+          "gloss_id": "2092",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 150,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "谢谢",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "synonym_candidate",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "感谢",
+          "gloss_id": "1325",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 163,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "感谢",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "感谢",
+          "gloss_id": "1325",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 163,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "再见",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "再见",
+          "gloss_id": "4046",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 139,
+          "in_old_20_model": true,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "请",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "请",
+          "gloss_id": "3903",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 137,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "对不起",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "variant_candidate",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "对不起1-2",
+          "gloss_id": "5311",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 167,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "没关系",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "variant_candidate",
+      "match_count": 2,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "没关系2-2",
+          "gloss_id": "2009",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 150,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "没关系2-1",
+          "gloss_id": "3423",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 142,
+          "in_old_20_model": false,
+          "in_old_200_model": true
+        }
+      ]
+    },
+    {
+      "candidate_word": "是",
+      "semantic_group": "判断与否定",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "是",
+          "gloss_id": "0198",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 123,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "不是",
+      "semantic_group": "判断与否定",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "不是",
+          "gloss_id": "3439",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 130,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "有",
+      "semantic_group": "判断与否定",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "有",
+          "gloss_id": "4910",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 130,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "没有",
+      "semantic_group": "判断与否定",
+      "primary_match_type": "variant_candidate",
+      "match_count": 2,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "没有1-2",
+          "gloss_id": "0999",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 140,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "没有1-1",
+          "gloss_id": "2505",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 137,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "可以",
+      "semantic_group": "许可与能力",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "可以",
+          "gloss_id": "2498",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 138,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "不可以",
+      "semantic_group": "许可与能力",
+      "primary_match_type": "synonym_candidate",
+      "match_count": 4,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "不行2-1",
+          "gloss_id": "2958",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 129,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "禁止1-2",
+          "gloss_id": "3583",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 143,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "禁止1-1",
+          "gloss_id": "4242",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 139,
+          "in_old_20_model": false,
+          "in_old_200_model": true
+        },
+        {
+          "matched_gloss": "不行2-2",
+          "gloss_id": "5877",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 126,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "要",
+      "semantic_group": "需求与意愿",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "要",
+          "gloss_id": "0317",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 133,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "需要",
+      "semantic_group": "需求与意愿",
+      "primary_match_type": "variant_candidate",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "需要1-1",
+          "gloss_id": "5610",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 135,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "帮助",
+      "semantic_group": "需求与意愿",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "帮助",
+          "gloss_id": "5094",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 119,
+          "in_old_20_model": true,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "什么",
+      "semantic_group": "疑问词",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "什么",
+          "gloss_id": "0109",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 131,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "哪里",
+      "semantic_group": "疑问词",
+      "primary_match_type": "synonym_candidate",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "那里",
+          "gloss_id": "5742",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 143,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "谁",
+      "semantic_group": "疑问词",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "谁",
+          "gloss_id": "5637",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 167,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "多少",
+      "semantic_group": "疑问词",
+      "primary_match_type": "missing",
+      "match_count": 0,
+      "available_signers": 0,
+      "all_matches_have_10_signers": false,
+      "requires_group_confirmation": true,
+      "matches": []
+    },
+    {
+      "candidate_word": "吃",
+      "semantic_group": "日常动作",
+      "primary_match_type": "missing",
+      "match_count": 0,
+      "available_signers": 0,
+      "all_matches_have_10_signers": false,
+      "requires_group_confirmation": true,
+      "matches": []
+    },
+    {
+      "candidate_word": "喝",
+      "semantic_group": "日常动作",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "喝",
+          "gloss_id": "3504",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 143,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "水",
+      "semantic_group": "日常事物",
+      "primary_match_type": "variant_candidate",
+      "match_count": 2,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "水1-1",
+          "gloss_id": "1879",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 128,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "水1-2",
+          "gloss_id": "5278",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 130,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "厕所",
+      "semantic_group": "日常地点",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "厕所",
+          "gloss_id": "6149",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 123,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "家",
+      "semantic_group": "日常地点",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "家",
+          "gloss_id": "5726",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 144,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "学校",
+      "semantic_group": "日常地点",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "学校",
+          "gloss_id": "1251",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 136,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "医院",
+      "semantic_group": "日常地点",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "医院",
+          "gloss_id": "1284",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 147,
+          "in_old_20_model": true,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "医生",
+      "semantic_group": "人物与关系",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "医生",
+          "gloss_id": "2102",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 137,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "朋友",
+      "semantic_group": "人物与关系",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "朋友",
+          "gloss_id": "5008",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 135,
+          "in_old_20_model": true,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "老师",
+      "semantic_group": "人物与关系",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "老师",
+          "gloss_id": "1597",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 145,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "今天",
+      "semantic_group": "时间",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "今天",
+          "gloss_id": "1770",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 149,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "明天",
+      "semantic_group": "时间",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "明天",
+          "gloss_id": "4542",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 145,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "现在",
+      "semantic_group": "时间",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "现在",
+          "gloss_id": "6618",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 127,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "左",
+      "semantic_group": "方向与控制",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "左",
+          "gloss_id": "1834",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 140,
+          "in_old_20_model": true,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "右",
+      "semantic_group": "方向与控制",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "右",
+          "gloss_id": "4521",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 130,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "停止",
+      "semantic_group": "方向与控制",
+      "primary_match_type": "exact",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": false,
+      "matches": [
+        {
+          "matched_gloss": "停止",
+          "gloss_id": "4746",
+          "match_type": "exact",
+          "available_signers": 10,
+          "front_frame_count": 135,
+          "in_old_20_model": true,
+          "in_old_200_model": false
+        }
+      ]
+    }
+  ],
+  "primary_match_type_counts": {
+    "exact": 30,
+    "synonym_candidate": 3,
+    "variant_candidate": 5,
+    "missing": 2
+  },
+  "core_20": {
+    "status": "provisional",
+    "requires_group_confirmation": true,
+    "items": [
+      {
+        "candidate_word": "我",
+        "semantic_group": "人称代词",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "我",
+            "gloss_id": "1928",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 122,
+            "in_old_20_model": true,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "你",
+        "semantic_group": "人称代词",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "你",
+            "gloss_id": "1925",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 129,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "他",
+        "semantic_group": "人称代词",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "他",
+            "gloss_id": "6450",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 124,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "我们",
+        "semantic_group": "人称代词",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "我们",
+            "gloss_id": "0488",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 155,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "好",
+        "semantic_group": "社交与礼貌",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "好",
+            "gloss_id": "2092",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 150,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "感谢",
+        "semantic_group": "社交与礼貌",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "感谢",
+            "gloss_id": "1325",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 163,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "再见",
+        "semantic_group": "社交与礼貌",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "再见",
+            "gloss_id": "4046",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 139,
+            "in_old_20_model": true,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "请",
+        "semantic_group": "社交与礼貌",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "请",
+            "gloss_id": "3903",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 137,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "是",
+        "semantic_group": "判断与否定",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "是",
+            "gloss_id": "0198",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 123,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "不是",
+        "semantic_group": "判断与否定",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "不是",
+            "gloss_id": "3439",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 130,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "有",
+        "semantic_group": "判断与否定",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "有",
+            "gloss_id": "4910",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 130,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "可以",
+        "semantic_group": "许可与能力",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "可以",
+            "gloss_id": "2498",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 138,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "要",
+        "semantic_group": "需求与意愿",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "要",
+            "gloss_id": "0317",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 133,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "帮助",
+        "semantic_group": "需求与意愿",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "帮助",
+            "gloss_id": "5094",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 119,
+            "in_old_20_model": true,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "什么",
+        "semantic_group": "疑问词",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "什么",
+            "gloss_id": "0109",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 131,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "谁",
+        "semantic_group": "疑问词",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "谁",
+            "gloss_id": "5637",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 167,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "喝",
+        "semantic_group": "日常动作",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "喝",
+            "gloss_id": "3504",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 143,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "厕所",
+        "semantic_group": "日常地点",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "厕所",
+            "gloss_id": "6149",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 123,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "医院",
+        "semantic_group": "日常地点",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "医院",
+            "gloss_id": "1284",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 147,
+            "in_old_20_model": true,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "停止",
+        "semantic_group": "方向与控制",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "停止",
+            "gloss_id": "4746",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 135,
+            "in_old_20_model": true,
+            "in_old_200_model": false
+          }
+        ]
+      }
+    ]
+  },
+  "reserve_10": {
+    "status": "provisional",
+    "requires_group_confirmation": true,
+    "items": [
+      {
+        "candidate_word": "家",
+        "semantic_group": "日常地点",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "家",
+            "gloss_id": "5726",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 144,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "学校",
+        "semantic_group": "日常地点",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "学校",
+            "gloss_id": "1251",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 136,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "医生",
+        "semantic_group": "人物与关系",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "医生",
+            "gloss_id": "2102",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 137,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "朋友",
+        "semantic_group": "人物与关系",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "朋友",
+            "gloss_id": "5008",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 135,
+            "in_old_20_model": true,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "老师",
+        "semantic_group": "人物与关系",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "老师",
+            "gloss_id": "1597",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 145,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "今天",
+        "semantic_group": "时间",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "今天",
+            "gloss_id": "1770",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 149,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "明天",
+        "semantic_group": "时间",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "明天",
+            "gloss_id": "4542",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 145,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "现在",
+        "semantic_group": "时间",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "现在",
+            "gloss_id": "6618",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 127,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "左",
+        "semantic_group": "方向与控制",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "左",
+            "gloss_id": "1834",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 140,
+            "in_old_20_model": true,
+            "in_old_200_model": false
+          }
+        ]
+      },
+      {
+        "candidate_word": "右",
+        "semantic_group": "方向与控制",
+        "primary_match_type": "exact",
+        "match_count": 1,
+        "available_signers": 10,
+        "all_matches_have_10_signers": true,
+        "requires_group_confirmation": false,
+        "matches": [
+          {
+            "matched_gloss": "右",
+            "gloss_id": "4521",
+            "match_type": "exact",
+            "available_signers": 10,
+            "front_frame_count": 130,
+            "in_old_20_model": false,
+            "in_old_200_model": false
+          }
+        ]
+      }
+    ]
+  },
+  "needs_group_confirmation": [
+    {
+      "candidate_word": "谢谢",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "synonym_candidate",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "感谢",
+          "gloss_id": "1325",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 163,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "对不起",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "variant_candidate",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "对不起1-2",
+          "gloss_id": "5311",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 167,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "没关系",
+      "semantic_group": "社交与礼貌",
+      "primary_match_type": "variant_candidate",
+      "match_count": 2,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "没关系2-2",
+          "gloss_id": "2009",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 150,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "没关系2-1",
+          "gloss_id": "3423",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 142,
+          "in_old_20_model": false,
+          "in_old_200_model": true
+        }
+      ]
+    },
+    {
+      "candidate_word": "没有",
+      "semantic_group": "判断与否定",
+      "primary_match_type": "variant_candidate",
+      "match_count": 2,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "没有1-2",
+          "gloss_id": "0999",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 140,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "没有1-1",
+          "gloss_id": "2505",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 137,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "不可以",
+      "semantic_group": "许可与能力",
+      "primary_match_type": "synonym_candidate",
+      "match_count": 4,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "不行2-1",
+          "gloss_id": "2958",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 129,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "禁止1-2",
+          "gloss_id": "3583",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 143,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "禁止1-1",
+          "gloss_id": "4242",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 139,
+          "in_old_20_model": false,
+          "in_old_200_model": true
+        },
+        {
+          "matched_gloss": "不行2-2",
+          "gloss_id": "5877",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 126,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "需要",
+      "semantic_group": "需求与意愿",
+      "primary_match_type": "variant_candidate",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "需要1-1",
+          "gloss_id": "5610",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 135,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "哪里",
+      "semantic_group": "疑问词",
+      "primary_match_type": "synonym_candidate",
+      "match_count": 1,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "那里",
+          "gloss_id": "5742",
+          "match_type": "synonym_candidate",
+          "available_signers": 10,
+          "front_frame_count": 143,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    },
+    {
+      "candidate_word": "多少",
+      "semantic_group": "疑问词",
+      "primary_match_type": "missing",
+      "match_count": 0,
+      "available_signers": 0,
+      "all_matches_have_10_signers": false,
+      "requires_group_confirmation": true,
+      "matches": []
+    },
+    {
+      "candidate_word": "吃",
+      "semantic_group": "日常动作",
+      "primary_match_type": "missing",
+      "match_count": 0,
+      "available_signers": 0,
+      "all_matches_have_10_signers": false,
+      "requires_group_confirmation": true,
+      "matches": []
+    },
+    {
+      "candidate_word": "水",
+      "semantic_group": "日常事物",
+      "primary_match_type": "variant_candidate",
+      "match_count": 2,
+      "available_signers": 10,
+      "all_matches_have_10_signers": true,
+      "requires_group_confirmation": true,
+      "matches": [
+        {
+          "matched_gloss": "水1-1",
+          "gloss_id": "1879",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 128,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        },
+        {
+          "matched_gloss": "水1-2",
+          "gloss_id": "5278",
+          "match_type": "variant_candidate",
+          "available_signers": 10,
+          "front_frame_count": 130,
+          "in_old_20_model": false,
+          "in_old_200_model": false
+        }
+      ]
+    }
+  ],
+  "missing_candidates": [
+    "多少",
+    "吃"
+  ],
+  "sequence_compositions": {
+    "你好": {
+      "tokens": [
+        "你",
+        "好"
+      ],
+      "new_isolated_class": false,
+      "status": "provisional",
+      "notes": "暂按两个已审计词的词序列处理，不建立无数据支持的新类别。"
+    }
+  }
+}

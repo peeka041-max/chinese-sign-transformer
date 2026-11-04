@@ -1,0 +1,51 @@
+{
+  "protocol_status": "draft",
+  "task": "isolated_sign_recognition_v1",
+  "nationalcsl_split": {
+    "train": [
+      "Participant_01",
+      "Participant_02",
+      "Participant_03",
+      "Participant_04",
+      "Participant_05",
+      "Participant_06",
+      "Participant_07"
+    ],
+    "val": [
+      "Participant_08"
+    ],
+    "stage_test": [
+      "Participant_09",
+      "Participant_10"
+    ]
+  },
+  "stage_test_is_fully_blind": false,
+  "stage_test_label": "阶段跨手语者测试",
+  "stage_test_limit": "Participant_09/10曾用于此前项目错误分析，因此不能称为完全盲测。",
+  "future_self_recorded_data": {
+    "minimum_never_tuned_signers": 1,
+    "purpose": "最终盲测",
+    "restriction": "该手语者不得参与词表、阈值、超参数或模型选择。"
+  },
+  "input_rules": {
+    "sequence_length": 30,
+    "feature_dimension": 266,
+    "feature_scope": "双手V2特征",
+    "upper_body_pose": "后续对照实验",
+    "standardization_statistics_source": "train_only"
+  },
+  "metrics": [
+    "Accuracy",
+    "Macro-F1",
+    "per_sample_predictions",
+    "accepted_accuracy",
+    "coverage",
+    "camera_fps",
+    "action_end_to_result_latency"
+  ],
+  "prohibitions": [
+    "不根据test结果调整词表、阈值或超参数。",
+    "不把近义词自动当成同一标签。",
+    "不把单词模型称为连续句子翻译。"
+  ]
+}

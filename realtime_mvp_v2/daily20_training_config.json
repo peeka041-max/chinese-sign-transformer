@@ -1,0 +1,85 @@
+{
+  "experiment": "daily20_transfer_seed42",
+  "seed": 42,
+  "model": {
+    "sequence_length": 30,
+    "input_dim": 266,
+    "d_model": 64,
+    "nhead": 4,
+    "num_layers": 2,
+    "dim_feedforward": 128,
+    "dropout": 0.35
+  },
+  "split": {
+    "train_signers": [
+      "Participant_01",
+      "Participant_02",
+      "Participant_03",
+      "Participant_04",
+      "Participant_05",
+      "Participant_06",
+      "Participant_07"
+    ],
+    "val_signers": [
+      "Participant_08"
+    ],
+    "stage_test_signers": [
+      "Participant_09",
+      "Participant_10"
+    ],
+    "train_samples": 140,
+    "val_samples": 20,
+    "stage_test_samples": 40
+  },
+  "phase1": {
+    "trainable": "output.2 classification head only",
+    "epochs": 10,
+    "learning_rate": 0.001
+  },
+  "phase2": {
+    "trainable": "all parameters",
+    "max_epochs": 100,
+    "learning_rate": 0.0001,
+    "early_stopping_patience": 20,
+    "scheduler": "ReduceLROnPlateau(macro_f1, factor=0.5, patience=5)"
+  },
+  "batch_size": 16,
+  "weight_decay": 0.003,
+  "label_smoothing": 0.08,
+  "augmentation": "existing augment_sequence; no new strategy",
+  "selection_rule": "validation_accuracy_desc, validation_macro_f1_desc, validation_loss_asc",
+  "feature_definition": {
+    "shape": [
+      30,
+      266
+    ],
+    "dtype": "float32",
+    "left_local_landmarks": [
+      0,
+      63
+    ],
+    "right_local_landmarks": [
+      63,
+      126
+    ],
+    "left_wrist_global_xyz": [
+      126,
+      129
+    ],
+    "right_wrist_global_xyz": [
+      129,
+      132
+    ],
+    "temporal_difference": [
+      132,
+      264
+    ],
+    "left_present": 264,
+    "right_present": 265,
+    "temporal_difference_note": "difference between adjacent normalized time steps; not divided by seconds"
+  },
+  "normalizer_fit_samples": 140,
+  "normalizer_fit_split": "train",
+  "transfer_tensor_count": 31,
+  "stage_test": "NOT EVALUATED"
+}
