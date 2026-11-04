@@ -1,0 +1,3 @@
+﻿experiment,initialization,best_epoch,best_phase,best_phase_epoch,train_accuracy,train_macro_f1,train_loss,val_accuracy,val_macro_f1,val_loss,loss_contract,stage_test
+daily20_transfer_seed42,nationalcsl200_pretrained,29,phase2_finetune,19,0.85000000,0.84735723,1.12440807,0.55000000,0.45833333,2.17502918,"torch.nn.CrossEntropyLoss(label_smoothing=0.08, reduction='mean'); epoch loss is sample-count-weighted mean of batch losses",NOT EVALUATED
+daily20_scratch_seed42,random_seed42,25,phase2_finetune,15,0.31428571,0.29177822,2.43486748,0.20000000,0.12777778,2.94074545,"torch.nn.CrossEntropyLoss(label_smoothing=0.08, reduction='mean'); epoch loss is sample-count-weighted mean of batch losses",NOT EVALUATED
