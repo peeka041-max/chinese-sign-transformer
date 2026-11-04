@@ -1,0 +1,102 @@
+{
+  "mode_name": "medical",
+  "class_id": "9-19",
+  "class_ids": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "display_words": [
+    "检查",
+    "医院",
+    "医生",
+    "护士",
+    "挂号",
+    "药",
+    "疼痛",
+    "发烧",
+    "咳嗽",
+    "过敏",
+    "急救"
+  ],
+  "confidence_threshold": 0.4,
+  "threshold_source": "Participant_08 validation",
+  "low_confidence_message": "未识别，请重试",
+  "checkpoint": "domain_mvp_v1/checkpoints/domain_mvp20_transfer.pt",
+  "class_order_summary": [
+    {
+      "class_id": 9,
+      "gloss_id": "0811",
+      "dataset_gloss": "检查",
+      "display_word": "检查"
+    },
+    {
+      "class_id": 10,
+      "gloss_id": "1284",
+      "dataset_gloss": "医院",
+      "display_word": "医院"
+    },
+    {
+      "class_id": 11,
+      "gloss_id": "2102",
+      "dataset_gloss": "医生",
+      "display_word": "医生"
+    },
+    {
+      "class_id": 12,
+      "gloss_id": "5166",
+      "dataset_gloss": "护士",
+      "display_word": "护士"
+    },
+    {
+      "class_id": 13,
+      "gloss_id": "1660",
+      "dataset_gloss": "挂号",
+      "display_word": "挂号"
+    },
+    {
+      "class_id": 14,
+      "gloss_id": "5984",
+      "dataset_gloss": "药",
+      "display_word": "药"
+    },
+    {
+      "class_id": 15,
+      "gloss_id": "1682",
+      "dataset_gloss": "疼痛1-1",
+      "display_word": "疼痛"
+    },
+    {
+      "class_id": 16,
+      "gloss_id": "0461",
+      "dataset_gloss": "发烧",
+      "display_word": "发烧"
+    },
+    {
+      "class_id": 17,
+      "gloss_id": "4240",
+      "dataset_gloss": "咳嗽",
+      "display_word": "咳嗽"
+    },
+    {
+      "class_id": 18,
+      "gloss_id": "0307",
+      "dataset_gloss": "过敏1-1",
+      "display_word": "过敏"
+    },
+    {
+      "class_id": 19,
+      "gloss_id": "0439",
+      "dataset_gloss": "急救",
+      "display_word": "急救"
+    }
+  ]
+}
